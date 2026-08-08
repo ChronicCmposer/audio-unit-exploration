@@ -1,0 +1,54 @@
+# Build output
+build/
+DerivedData/
+*.o
+*.dia
+*.pch
+
+# Xcode per-user state
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+
+# Xcode build artifacts
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcarchive
+*.app
+*.appex
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods / Carthage (if added later)
+Pods/
+Carthage/Build/
+
+# Provisioning & signing
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+
+# Audio working files
+*.wav.bak
+Recordings/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editors
+*.swp
+*~
+.idea/
